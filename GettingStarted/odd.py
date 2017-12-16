@@ -1,4 +1,5 @@
 from datetime import datetime
+
 import time
 import random
 
@@ -10,8 +11,8 @@ for i in range(5):
     right_this_minute = datetime.today().minute
 
     if right_this_minute in odds:
-	    print("This minute seems a little odd.")
+      print("This minute seems a little odd.")
     else:
-	    print("Not an odd minute.")
-	waite_time = random.randint(1, 60)
-	time.sleep(waite_time)
+      print("Not an odd minute.")
+    waite_time = random.randint(1, 60)
+    time.sleep(waite_time)
