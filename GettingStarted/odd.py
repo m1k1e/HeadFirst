@@ -14,5 +14,5 @@ for i in range(5):
       print("This minute seems a little odd.")
     else:
       print("Not an odd minute.")
-    waite_time = random.randint(1, 60)
-    time.sleep(waite_time)
+waite_time = random.randint(1, 60)
+time.sleep(waite_time)
